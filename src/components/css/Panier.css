@@ -3,7 +3,7 @@
   background: white;
   top: 30px;
   width: 350px;
-  height: 186px;
+  height: 200px;
   left: 975px;
   border-radius: 5px;
   display: flex;
@@ -48,7 +48,7 @@
   border-style: none;
   border: none;
   cursor: not-allowed;
-  background: #bac3c3;
+  background: #14c4b8;
   color: #8b9a9b;
   font-size: 16px;
   line-height: 13.3px;

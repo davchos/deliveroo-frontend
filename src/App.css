@@ -30,3 +30,51 @@ p {
 * {
   font-family: "Sarpanch", sans-serif;
 }
+
+@media screen and (max-width: 1208px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 0 auto;
+  }
+  .category {
+    flex-direction: column;
+    width: 411px;
+  }
+  .category-meals {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1250px) {
+  .container {
+    width: 800px;
+    margin: 0 auto;
+    /* background: white; */
+  }
+  .description {
+    display: flex;
+    flex-direction: column;
+    height: 260px;
+    /* border: yellow solid 1px; */
+    /* padding: 20px 0; */
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    background: white;
+    margin-bottom: 10px;
+  }
+}
+
+/* @media (max-width: 1208px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+  }
+  .category {
+    flex-direction: column;
+  }
+} */
