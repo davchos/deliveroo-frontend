@@ -11,7 +11,9 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("http://localhost:3200/");
+        const response = await axios.get(
+          "https://delivery-orion21.herokuapp.com/"
+        );
         console.log(response.data);
         setData(response.data);
         setIsLoading(false);

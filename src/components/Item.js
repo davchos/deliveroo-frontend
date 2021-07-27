@@ -30,7 +30,7 @@ const Item = ({ elem, states, setStates, index }) => {
 
         <i onClick={handleMoins} className="fas fa-minus fa-xs"></i>
 
-        <span>{elem.title}</span>
+        <p>{elem.title}</p>
       </div>
       <span>{elem.price}</span>
     </div>
