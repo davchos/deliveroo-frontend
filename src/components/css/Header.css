@@ -1,0 +1,16 @@
+.header {
+  height: 62px;
+  /* border: black solid 1px; */
+  background: white;
+  border-bottom: gray solid 1px;
+}
+svg {
+  width: 112px;
+  height: 32px;
+  /* background-color: blue; */
+  /* background-image: url("../../assets/logo-white.svg"); */
+}
+
+.fill {
+  fill: #00ccbc;
+}

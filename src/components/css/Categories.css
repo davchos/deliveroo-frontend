@@ -1,0 +1,8 @@
+.category-meals {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* padding: 0 10px; */
+  /* background: white; */
+}

@@ -1,9 +1,34 @@
 import "./App.css";
-
+import Restaurant from "./components/Restaurant";
+import Header from "./components/Header";
+import { useState, useEffect } from "react";
+import axios from "axios";
 function App() {
-  return (
+  const [isLoading, setIsLoading] = useState(true);
+  const [data, setData] = useState();
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await axios.get("http://localhost:3200/");
+        console.log(response.data);
+        setData(response.data);
+        setIsLoading(false);
+      } catch (error) {
+        console.log(error.message);
+      }
+    };
+    fetchData();
+  }, []);
+  return isLoading ? (
+    <span>Page loading ......</span>
+  ) : (
     <div>
-      Hello from <a href="https://www.lereacteur.io">Le Reacteur !</a>
+      <Header />
+      <div>
+        {/* <Header /> */}
+        <Restaurant data={data} />
+      </div>
     </div>
   );
 }

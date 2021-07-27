@@ -1,1 +1,32 @@
 /* Other rules */
+.container {
+  width: 1203px;
+  margin: 0 auto;
+  /* background: white; */
+}
+
+body {
+  background: #f2f5f5;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 26.7px;
+  letter-spacing: 0px;
+  color: #2e3333;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+p {
+  color: #808484;
+}
+
+* {
+  font-family: "Sarpanch", sans-serif;
+}
