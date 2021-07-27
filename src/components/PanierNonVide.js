@@ -12,7 +12,7 @@ const PanierNonVide = ({ states, setStates }) => {
   const tot = () => {
     let tot = 0;
     Object.entries(states.items).map(([key, elem], index) => {
-      tot += elem.qty * elem.price;
+      tot += elem.qty * elem.price; // total + 2.5 plus simple ....
     });
     return (tot + 2.5).toFixed(2);
   };
