@@ -75,11 +75,13 @@
 .category,
 .category-meal-text h2 {
   /* font-size: 20px; */
-  margin: 20px 0 0 0;
+  /* margin: 20px 0 0 0; */
   box-sizing: border-box;
   font-weight: bold;
 }
-
+h2 {
+  margin-bottom: 26px;
+}
 .category-meal-text h3 {
   font-size: 18px;
   color: #2e3333;

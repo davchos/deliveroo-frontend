@@ -1,4 +1,5 @@
 import "./css/Description.css";
+import Panier from "./Panier";
 
 const Description = ({ restaurant }) => {
   // console.log(restaurant.);
@@ -15,7 +16,7 @@ const Description = ({ restaurant }) => {
           src={restaurant.picture}
           alt="test"
         />
-        {/* </div> */}
+        {/* <Panier /> */}
       </div>
     </div>
   );

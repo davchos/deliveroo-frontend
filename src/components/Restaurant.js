@@ -1,6 +1,7 @@
 import "./css/Restaurant.css";
 import Description from "./Description";
 import Categories from "./Categories";
+import Panier from "./Panier";
 
 const Restaurant = ({ data }) => {
   console.log(data);
