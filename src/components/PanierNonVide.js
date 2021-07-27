@@ -16,19 +16,9 @@ const PanierNonVide = ({ states, setStates }) => {
     });
     return (tot + 2.5).toFixed(2);
   };
-
-  //     const soustotal = 0;
-  //     Object.entries(states.items).map([key, elem], index)=>{
-  //     soustotal += (elem.qty * elem.price)
-  //     })}
-
-  // };
-  const total = () => {};
-  console.log("Panier non vide: " + states);
   return (
     <div className="paniernonvide">
       <button className="title">Valider mon panier</button>
-
       <div>
         {Object.entries(states.items).map(([cle, elem], index) => {
           console.log(" In loop " + elem);
@@ -38,12 +28,10 @@ const PanierNonVide = ({ states, setStates }) => {
               states={states}
               setStates={setStates}
               index={index}
-              //   cle={cle}
             />
           );
         })}
       </div>
-
       <div className="item">
         <span>Sous-total</span> <span>{sousTotal()}</span>
       </div>

@@ -11,8 +11,6 @@ const Header = (props) => {
           width="150px"
           height="50px"
           srcset="//upload.wikimedia.org/wikipedia/fr/thumb/f/f7/Deliveroo_logo.svg/779px-Deliveroo_logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/fr/thumb/f/f7/Deliveroo_logo.svg/1038px-Deliveroo_logo.svg.png 2x"
-          // data-file-width="519"
-          // data-file-height="174"
         ></img>
       </div>
     </div>

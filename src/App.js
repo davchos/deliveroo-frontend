@@ -1,7 +1,6 @@
 import "./App.css";
 import Restaurant from "./components/Restaurant";
 import Header from "./components/Header";
-import Panier from "./components/Panier";
 import { useState, useEffect } from "react";
 import axios from "axios";
 function App() {
@@ -27,7 +26,6 @@ function App() {
     <span>Page loading ......</span>
   ) : (
     <div>
-      {/* <Panier /> */}
       <Header />
       <div>
         <Restaurant data={data} />

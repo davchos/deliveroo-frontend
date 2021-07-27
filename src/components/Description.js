@@ -2,7 +2,6 @@ import "./css/Description.css";
 import Panier from "./Panier";
 
 const Description = ({ restaurant }) => {
-  // console.log(restaurant.);
   return (
     <div style={{ background: "white" }}>
       <div className="description container">
@@ -16,7 +15,6 @@ const Description = ({ restaurant }) => {
           src={restaurant.picture}
           alt="test"
         />
-        {/* <Panier /> */}
       </div>
     </div>
   );

@@ -13,18 +13,13 @@ const Categories = ({ categories }) => {
   console.log("categories" + categories);
   return (
     <div className="content">
-      <div
-        className="category-meals category"
-        // style={{ background: "white" }}
-        // key="index"
-      >
+      <div className="category-meals category">
         {categories
           .filter((elem) => {
             console.log("in cat: " + typeof elem.meals);
             return elem.meals.length !== 0;
           })
           .map((ele, index) => {
-            // console.log(index);
             return (
               <div key={index}>
                 <Category

@@ -20,12 +20,12 @@ const Meals = ({ meals, index, states, setStates }) => {
             };
           }
           copyStates.total += Number(elem.price);
-          //   copyStates.total = copyStates.total.tofixed(2);
+
           console.log(copyStates);
           setStates(copyStates);
         };
         return (
-          <div key={index} /*className="category-meals"*/>
+          <div key={index}>
             <div className="category-meal">
               <div className="category-meal-text">
                 {elem.title && <h3 onClick={handleClick}>{elem.title}</h3>}
